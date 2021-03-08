@@ -8,7 +8,7 @@ body{
 }
 
 .nav-items {
-    margin: 0% 0% 0% 60%;
+    margin: 0% 0% 0% 55%;
 }
 
 .nav-item {
@@ -26,15 +26,27 @@ header{
 /*Section 01**/
 
 #section1{
-   /* background-color: grey;*/
-    height: 100vh;
+    background-color: #064acb;
+    height: 100%;
 }
 
 .heading1 {
     text-align: center;
-    margin: auto;
+    margin: 0% 10% 0% 10%;
     padding-top: 3%;
+    color: aliceblue;
+    font-size: 3em;
     
+    
+}
+
+.sec1-h2{
+    text-align: center;
+    margin: auto;
+    padding: 1% 1% 10% 1%;
+    color: aliceblue;
+    font-size: 1.5em;
+    max-width: 55%;
 }
 
 .sec1-imgdiv{
@@ -51,8 +63,9 @@ header{
 
 /*******media quaries*************/
 
-@media (max-width:598px){
+@media (max-width:990px) {
     .nav-items {
         margin: 0% 0% 0% 0%;
+        
     }
 }
