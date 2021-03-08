@@ -27,12 +27,12 @@ header{
 
 #section1{
     background-color: #064acb;
+    padding: 0% 10% 0% 10%;
     height: 100%;
 }
 
 .heading1 {
     text-align: center;
-    margin: 0% 10% 0% 10%;
     padding-top: 3%;
     color: aliceblue;
     font-size: 3em;
@@ -43,10 +43,10 @@ header{
 .sec1-h2{
     text-align: center;
     margin: auto;
-    padding: 1% 1% 10% 1%;
+    padding: 1% 1% 5% 1%;
     color: aliceblue;
     font-size: 1.5em;
-    max-width: 55%;
+    width: 55%;
 }
 
 .sec1-imgdiv{
@@ -61,6 +61,119 @@ header{
 }
 
 
+/**********Section 02****************************************/
+
+#section2{
+    text-align: center;
+    padding: 1% ;
+    
+}
+
+.sec2-list{
+    padding: 1% 30% 1% 30%;
+    text-align: left;
+    font-size: 1.1em;
+    
+}
+.sec2-para{
+    padding: 1% 20% 0% 20%;
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/*******************section 03***********************************/
+
+#section3{
+    text-align: left;
+    padding: 5% 10% 5% 10%;
+    background-color:#e8e8e8;
+
+}
+
+.sec3-h2{
+    text-align: center;
+}
+
+#accordion-sec3{
+    padding: 1% 10% 0% 10%;
+}
+
+/************************section 04******************************************/
+
+#section4{
+    padding: 5% 10% 5% 10%;
+}
+
+.sec4-h2{
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.card-div{
+  padding: 0% 10% 0% 10%;
+  text-align: center;
+}
+
+.card-header{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.sec4-img-div{
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.sec4-img1{
+    width: 65%;
+   
+}
+
+/********************section 05**********************************/
+
+#section5{
+    background-color: #e8e8e8;
+    padding-top: 3%;
+}
+
+.sec5-h2{
+    text-align: center;
+}
+
+#accordion-sec5{
+    padding: 2% 15% 5% 15%;
+}
+
+.sec5-acco-btn {
+    color: white;
+    font-weight: bold;
+}
+
+.sec5-accordion-item{
+    padding-bottom: 1%;
+}
+
+/*****************************section 06**********************/
+
+#section6{
+    padding: 3% 15% 3% 15%;
+}
+
+.card-sec6{
+    
+}
+
+.team-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/**********************************/
 /*******media quaries*************/
 
 @media (max-width:990px) {
@@ -68,4 +181,19 @@ header{
         margin: 0% 0% 0% 0%;
         
     }
+
+/***************section 01**********************/
+    #section1 {
+        background-color: #064acb;
+        padding: 0% 1% 0% 1%;
+    }
+
+    .sec1-h2{
+        width: 90%;
+    }
+
+/********************section 02*****************/
+
+
+
 }
