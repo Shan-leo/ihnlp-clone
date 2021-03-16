@@ -1,11 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
 body{
-    margin: 0%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .navbar-brand {
     margin: 0% 6% 0% 1%;
     font-size: 2em;
 }
+
 
 .nav-items {
     margin: 0% 0% 0% 45%;
@@ -17,22 +26,25 @@ body{
 }
 
 header{
-    background-color: gray;
+    background-image:linear-gradient(to top right, #0575E6, #021B79);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
+    box-shadow: 5px 10px #888888
+    
 }
 
-
-
-
-/*Section 01**/
-
-#section1{
-    background-color: #064acb;
-    padding: 0% 10% 0% 10%;
+.skew-parent{
+    
+    padding: 2% 5% 2% 5%;
     height: 100%;
+    text-align: center;
+    
+  
 }
+
+
 
 .heading1 {
-    text-align: center;
+    
     padding-top: 3%;
     color: aliceblue;
     font-size: 3em;
@@ -41,7 +53,7 @@ header{
 }
 
 .sec1-h2{
-    text-align: center;
+    
     margin: auto;
     padding: 1% 1% 5% 1%;
     color: aliceblue;
@@ -49,15 +61,13 @@ header{
     width: 55%;
 }
 
-.sec1-imgdiv{
-    text-align: center;
-    margin: auto;
-    padding-top: 3%;
-    padding-bottom: 2%;
-}
+
 
 .sec1-img{
     padding: 1%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 2%;
 }
 
 
@@ -66,6 +76,8 @@ header{
 #section2{
     text-align: center;
     padding: 1% ;
+    
+    
     
 }
 
@@ -88,8 +100,11 @@ header{
     text-align: left;
     padding: 5% 10% 5% 10%;
     background-color:#e8e8e8;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
 
 }
+
+
 
 .sec3-h2{
     text-align: center;
@@ -134,7 +149,8 @@ header{
 
 #section5{
     background-color: #e8e8e8;
-    padding-top: 3%;
+    padding-top: 5%;
+    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .sec5-h2{
@@ -148,6 +164,7 @@ header{
 .sec5-acco-btn {
     color: white;
     font-weight: bold;
+    background-image:linear-gradient(to top right, #0575E6, #021B79);
 }
 
 .sec5-accordion-item{
@@ -158,6 +175,7 @@ header{
 
 #section6{
     padding: 3% 15% 3% 15%;
+    
 }
 
 .sec6-h2{
@@ -168,6 +186,7 @@ header{
 .card-sec6{
     flex-basis: 50%;
     padding: 2%;
+    border-radius: 3%;
 }
 
 .team-cards{
@@ -176,6 +195,7 @@ header{
     text-align: center;
 
 }
+
 
 .team-img{
     max-width: 300px;
@@ -187,6 +207,7 @@ header{
 footer{
     margin: 0px;
     background-color: gray;
+    
 }
 
 .footer-flex-container{
@@ -236,7 +257,6 @@ footer{
 
 /***************section 01**********************/
     #section1 {
-        background-color: #064acb;
         padding: 0% 1% 0% 1%;
     }
 
