@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 body{
@@ -27,8 +27,6 @@ body{
 
 header{
     background-image:linear-gradient(to top right, #0575E6, #021B79);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
-    box-shadow: 5px 10px #888888
     
 }
 
@@ -76,9 +74,7 @@ header{
 #section2{
     text-align: center;
     padding: 1% ;
-    
-    
-    
+
 }
 
 .sec2-list{
@@ -97,23 +93,39 @@ header{
 /*******************section 03***********************************/
 
 #section3{
-    text-align: left;
-    padding: 5% 10% 5% 10%;
+    color: white;
+    text-align: center;
+    padding: 2% 5% 5% 5%;
     background-color:#e8e8e8;
-    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
-
+    background-image:linear-gradient(to top right, #4b6cb7, #182848);
 }
 
-
+.msg-col li{
+    text-align: left;
+    margin-left: 5%;
+    
+}
 
 .sec3-h2{
-    text-align: center;
+   margin: 2%;
 }
 
-#accordion-sec3{
-    padding: 1% 10% 0% 10%;
+.msg-container{
+    height: 80%;
+    width: 70%;
+    margin: auto;
+   
 }
 
+#slider{
+    display: inline-flex;
+    
+}
+
+.msg-col{
+    width: 100%;
+  
+}
 /************************section 04******************************************/
 
 #section4{
